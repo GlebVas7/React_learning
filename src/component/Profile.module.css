@@ -1,0 +1,12 @@
+.content{
+    height: 500px;
+    grid-area: c;
+    background-color: bisque;
+}
+.image_content{
+    width: 100%;
+    height: 300px;
+}
+.item {
+    color: chartreuse;
+}
