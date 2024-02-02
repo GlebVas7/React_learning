@@ -1,22 +1,32 @@
+html {
+    background-color: #ebe6e6;
+}
+
 .wrapper {
+    font-family: 'Playfair Display', serif;
+}
+
+.content_nav {
+    width: 1200px;
     margin: 0 auto;
     display: grid;
-    width: 1200px;
+    padding-top: 10px;
     grid-template-areas:
-  "h h"
   "n c"
   "footer footer";
-    grid-template-rows: 60px 1fr 60px;
+    grid-template-rows: 1fr 60px;
     grid-template-columns: 2fr 10fr;
     /*grid-gap: 10px;*/
-
 }
 
 .footer {
     grid-area: footer;
 }
-.wrapper_content{
-  height: 100%;
-  grid-area: c;
-  background-color: bisque;
+
+.wrapper_content {
+    box-shadow: 2px 2px 20px gray;
+    margin-left: 10px;
+    height: 100%;
+    grid-area: c;
+    background-color: white;
 }

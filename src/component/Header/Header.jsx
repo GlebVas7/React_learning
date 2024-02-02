@@ -4,7 +4,7 @@ import h from './Header.module.css';
 const Header = () => {
     return (
         <header className={h.header}>
-            <img src="https://styleall.ru/wp-content/uploads/2023/02/4eebee67599783.y3jvccwymzyxlde4ndcsntcyldmxnq.jpg"
+            <img src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614571788_26-p-krasivie-nadpisi-na-belom-fone-26.png"
                  alt="" className={h.image}/>
         </header>
     );
